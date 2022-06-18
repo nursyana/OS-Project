@@ -15,4 +15,5 @@ Docker is
  * Tutorial to deploy PHPMyAdmin -> [PHPMyAdmin Tutorial](phpmyadmin.md)
 
 
-![image](https://user-images.githubusercontent.com/106062805/174449676-33256b91-7215-465a-ba41-9b70d320728f.png)
+![image](https://user-images.githubusercontent.com/106062805/174458081-a218b086-75de-4c01-96d9-e5be69054737.png)
+
