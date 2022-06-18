@@ -6,6 +6,7 @@ Group Members:
 3. Nurul Zahidah ibinti Jamaludin (2011130)
 
 ## What is Docker?
+Docker is
  
  * Have a look at the installation steps and procedures here -> [Install](docker-installation.md)
  * Tutorial to deploy Apache -> [Apache](apache.md)
