@@ -5,9 +5,9 @@ Group Members:
 2. Nur Syazana binti Abdul Kadir (2016730)
 3. Nurul Zahidah ibinti Jamaludin (2011130)
 
-## 1.0 Introduction to Docker
+## What is Docker?
  
 
-## 2.0 Installation Steps and Procedures
+## How to install Docker and get to know the procedures
 
-## 3.0 
+## Deploy Apache, PHP, MYSql and PHPMyAdmin
