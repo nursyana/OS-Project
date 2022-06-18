@@ -8,8 +8,8 @@ Group Members:
 ## What is Docker?
 Docker is
  
- * Have a look at the installation steps and procedures here -> [Install](docker-installation.md)
- * Tutorial to deploy Apache -> [Apache](apache.md)
- * Tutorial to deploy PHP -> [PHP](php.md)
- * Tutorial to deploy MYSql -> [MYSql] (mysql.md)
- * Tutorial to deploy PHPMyAdmin -> [PHPMyAdmin](phpmyadmin.md)
+ * Have a look at the installation steps and procedures here -> [Install Docker](docker-installation.md)
+ * Tutorial to deploy Apache -> [Apache Tutorial](apache.md)
+ * Tutorial to deploy PHP -> [PHP Tutorial](php.md)
+ * Tutorial to deploy MYSql -> [MYSql Tutorial](mysql.md)
+ * Tutorial to deploy PHPMyAdmin -> [PHPMyAdmin Tutorial](phpmyadmin.md)
