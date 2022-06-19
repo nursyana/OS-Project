@@ -28,7 +28,7 @@ Docker provides tools and a platform to manage the lifecycle of your containers:
 ![image](https://user-images.githubusercontent.com/106062805/174482239-ac7c6f45-1ac1-4aa3-bfa1-0e9df2fa4691.png)
 
  
- * Have a look at the installation steps and procedures here -> [Install Docker]([docker-installation.md](https://github.com/nursyana/Term-Paper/blob/main/installation.md)
+ * Have a look at the installation steps and procedures here -> [Install Docker](https://github.com/nursyana/Term-Paper/blob/main/installation.md)
 
 
 ## Steps to deploy PHP, Apache, MySQL and PHPMyAdmin
