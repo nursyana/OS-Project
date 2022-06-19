@@ -143,3 +143,4 @@ SO, that's how we running our browser. As simple as this 2 steps. Now we are rea
 
 
 
+This tutorial is a modification from [Truth Seekers](https://www.youtube.com/watch?v=ThpnqYpvnIM) and [Ceed Media](https://www.youtube.com/watch?v=PvDoZDWDUzw)
