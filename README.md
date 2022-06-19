@@ -98,7 +98,18 @@ SO, that's how we running our browser. As simple as this 2 steps. Now we are rea
    ```
 ![image](https://user-images.githubusercontent.com/106062805/174465069-d4e9b84d-b118-41f9-b2a2-c2807c9f31a0.png)
 
-   2. In our project, create a file named ```docker-compose.yml```.
+   2. In our project, create a file named ```docker-compose.yml```. Paste this code in that file:
+   ```
+      version: "3.1"  # optional since v1.27.0
+      
+      services:
+         php:
+           image: php: 8.0-apache
+         ports:
+           - 8000:80
+         volumes:
+           - .src:/var/www/html/
+   ```
    
 ![image](https://user-images.githubusercontent.com/106062805/174465181-c3d3f89d-ceef-4d67-9a86-ac25f0b6e931.png)
 
