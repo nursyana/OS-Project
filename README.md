@@ -13,9 +13,3 @@ Docker is
  * Tutorial to deploy PHP -> [PHP Tutorial](php.md)
  * Tutorial to deploy MYSql -> [MYSql Tutorial](mysql.md)
  * Tutorial to deploy PHPMyAdmin -> [PHPMyAdmin Tutorial](phpmyadmin.md)
-
-
-
-
-## PHP
-![image](https://user-images.githubusercontent.com/106062805/174460115-4767b486-806e-4eed-b069-3685541ae650.png)
