@@ -114,12 +114,11 @@ SO, that's how we running our browser. As simple as this 2 steps. Now we are rea
    So, this container name ```php``` that using and refer to the image we created before ```php: 8.0-apache```.  
    With the ports ```8000:80``` where we are going to make use 8000 local computer mapping to 80 in the container.  
    Then we setting the volume for this code or the source file, ```./src:``` in our local computer.  
-   And, ```/www/html/``` on the container, so we are going to move this code or index file to the source folder in the next step.  
+   And, ```/www/html/``` on the container, so we are going to move our index file to the source folder in the next step.  
    
 ![image](https://user-images.githubusercontent.com/106062805/174465181-c3d3f89d-ceef-4d67-9a86-ac25f0b6e931.png)
 
-//create new file for src and put index.txt to src file
-
+   3. So, create a new folder under the same project named ```src```. Then move the ```index.php``` to that source folder.
 //compose
 ![image](https://user-images.githubusercontent.com/106062805/174465199-05f91bd2-d930-45e0-a124-dc1f37ab3e32.png)
 
