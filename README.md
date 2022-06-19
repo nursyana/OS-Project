@@ -20,7 +20,8 @@ Docker is
 //docker version
 ![image](https://user-images.githubusercontent.com/106062805/174463192-02a25eef-7741-4968-b921-0ab30ef8dcc0.png)
 
-![image](https://user-images.githubusercontent.com/106062805/174458081-a218b086-75de-4c01-96d9-e5be69054737.png)
+![image](https://user-images.githubusercontent.com/106062805/174482239-ac7c6f45-1ac1-4aa3-bfa1-0e9df2fa4691.png)
+
  
  * Have a look at the installation steps and procedures here -> [Install Docker](docker-installation.md)
 
