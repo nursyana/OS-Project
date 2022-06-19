@@ -35,4 +35,10 @@ To check if your windows already have docker or not, you get to know by checking
 
 ![image](https://user-images.githubusercontent.com/106062805/174463192-02a25eef-7741-4968-b921-0ab30ef8dcc0.png)
 
+
+In docker, we wil be able to see all the images that related to deploy this project. 
+
+![image](https://user-images.githubusercontent.com/106062805/174481392-a4e92d30-1621-458a-9c16-6ca3617f724e.png)
+
+
 Next, lets go back to the tutorial on how to [deploy a complete APACHE, PHP, MYSQL and PHPMYADMIN using Doker](https://github.com/nursyana/Term-Paper/blob/main/README.md)
