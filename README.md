@@ -99,6 +99,8 @@ We are done with the PHP. However, most websites are not going to be running on 
 SO, that's how we running our browser. As simple as this 2 steps. Now we are ready to setup docker compose and MySQL.
 
  ### MySQL
+ 
+MySQL is a relational database management system that is free and open source. It allows us to save all of the posts, users, plugin information, and so on. That information is stored in separate "tables" and linked with "keys," which is why it is relational. It impossible for a site to have no database. So, we choose MySQL for this tutorial. Let follow us.
 
    1. The container need to be stop first before we proceed. Use the command below to stop it.
    ```
@@ -154,16 +156,11 @@ Okay! Now docker compose file is working, so we get MySQL image installed.
   _NOTE: use of "mysql_native_password" is not recommended: https://dev.mysql.com/doc/refman/8.0/en/upgrading-from-previous-series.html#upgrade-caching-sha2-password_  
  _(this is just an example, not intended to be a production configuration)_  
  
-  7. Paste the code under the ```services``` in the docker-compose.yml file. ```db``` should be the same indention with the php. We are not going to use Adminer but phpMyAdmin.  
+  7. Paste the code under the ```services``` in the docker-compose.yml file. ```db``` should be the same indention with the php.  
      Basically, we are referring to ```mysql``` image and setting up some plugin, ```--default-authentication-plugin=mysql_native_password```.  
      Then, we've got the ```environment``` variable where we setting it to ```MYSQL_ROOT_PASSWORD:```. ```example``` is the password.
-
-
-
- 
-
-
-
+     
+In the [Docker Hub](https://hub.docker.com/) for the code give, there's Adminer but we are not going to use it instead we will show how to connect MySQL with phpMyAdmin.  
 
  ### phpMyAdmin
 
