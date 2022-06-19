@@ -118,7 +118,7 @@ SO, that's how we running our browser. As simple as this 2 steps. Now we are rea
    
 ![image](https://user-images.githubusercontent.com/106062805/174465181-c3d3f89d-ceef-4d67-9a86-ac25f0b6e931.png)
 
-   3. So, create a new folder under the same project named ```src```. Then move the ```index.php``` to that source folder.
+   3. So, create a new folder under the same project named ```src```. Then move the ```index.php``` to that source folder. Now, we have same exact setup but we're just using docker compose.
    
    4. 
 //compose
