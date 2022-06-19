@@ -7,6 +7,7 @@ Prepared by:
 
 ## What we are going to cover?
    * [What is Docker?](##What-is-Docker?)
+     * [Docker Installation](installation.md)
    * [Steps to deploy:](##Steps-to-deploy-PHP,-Apache,-MySQL-and-phpMyAdmin)
      * [PHP](###PHP)
      * [Apache](###Apache)
