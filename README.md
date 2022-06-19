@@ -72,6 +72,8 @@ We are done with the PHP. However, most websites are not going to be running on 
 
  ### Apache
  
+ Apache is the most commonly used web server software, and it is open-source and free. It is quick, dependable, and secure. Let's proceed.
+ 
    1. To run the downloaded Apache Docker Image, invoke the run command below to create a new container.
    ```
       docker run -d --name docker-apache -p 8000:80 -d httpd
