@@ -44,3 +44,7 @@ Let's think of the way this running on the browser. So we need Apache as the web
 
 //create containers
 ![image](https://user-images.githubusercontent.com/106062805/174464047-a9554fa3-4e05-41f8-9b16-cc30095c11af.png)
+
+//containers running
+![image](https://user-images.githubusercontent.com/106062805/174464310-426a6ad9-2126-40ac-9d52-eeda9e491dd6.png)
+
