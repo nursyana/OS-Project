@@ -132,6 +132,8 @@ SO, that's how we running our browser. As simple as this 2 steps. Now we are rea
 ![image](https://user-images.githubusercontent.com/106062805/174479521-9f6ea51a-3bec-4101-8fba-8238e8c83b1b.png)
 
 
+//all images in docker
+![image](https://user-images.githubusercontent.com/106062805/174481392-a4e92d30-1621-458a-9c16-6ca3617f724e.png)
 
 
 
