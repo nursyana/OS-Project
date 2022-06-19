@@ -110,7 +110,9 @@ SO, that's how we running our browser. As simple as this 2 steps. Now we are rea
          volumes:
            - .src:/var/www/html/
    ```
-   We refer to the image we created before ```php: 8.0-apache```.
+   We refer to the image we created before ```php: 8.0-apache```.  
+   Ports is ```8000:80``` where we are going to make use 8000 local computer mapping to 80 in the container.  
+   Then we can see the source folder, ```.src:/var/www/html/```, so we are going to move this code to the folder in the next step.  
    
 ![image](https://user-images.githubusercontent.com/106062805/174465181-c3d3f89d-ceef-4d67-9a86-ac25f0b6e931.png)
 
