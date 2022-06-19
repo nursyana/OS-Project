@@ -120,7 +120,10 @@ SO, that's how we running our browser. As simple as this 2 steps. Now we are rea
 
    3. So, create a new folder under the same project named ```src```. Then move the ```index.php``` to that source folder. Now, we have same exact setup but we're just using docker compose.
    
-   4. 
+   4. Next, we should be able to run docker compose by using this command:
+   ```
+      docker-compose up -d
+   ```
 //compose
 ![image](https://user-images.githubusercontent.com/106062805/174465199-05f91bd2-d930-45e0-a124-dc1f37ab3e32.png)
 
