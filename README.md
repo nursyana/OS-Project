@@ -167,24 +167,54 @@ Okay! Now docker compose file is working, so we get MySQL image installed.
 
  ### phpMyAdmin
 
+phpMyAdmin is a free PHP software utility designed to manage MySQL and offers a wide variety of MySQL operations. 
+
+1. Insert this code to the source file which this will run phpMyAmin and also allowing to specify MySQL server on login page after run the code. 
+
+```
+version: '3.1'
+
+services:
+  db:
+    image: mariadb:10.3
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: notSecureChangeMe
+
+  phpmyadmin:
+    image: phpmyadmin
+    restart: always
+    ports:
+      - 8080:80
+    environment:
+      - PMA_ARBITRARY=1
+   ```
+
 ![image](https://user-images.githubusercontent.com/106062805/174479215-92fb4d86-c572-42e1-8740-99b02aff8f4a.png)
+
+2. Next, we should be able to run docker compose by using this command:
+
+   ```
+      docker-compose up -d
+   ```
 
 ![image](https://user-images.githubusercontent.com/106062805/174479226-ab79330c-bf9a-4745-8ca2-c3659c8430e2.png)
 
+3. After that, we should be able to see the php login page by enter ```localhost:8001```
+
 ![image](https://user-images.githubusercontent.com/106062805/174479234-60d75e2e-7b2c-4363-8cff-c3e41296fad5.png)
 
+4. After login to the phpMyAdmin, we will be able to access all the table related. 
 
 ![image](https://user-images.githubusercontent.com/106062805/174479331-455139e7-6c4d-4587-9b34-71ec538d9156.png)
 
-//connected phpadmin
+5. To see whether we already connected to the phpMyAdmin or not, we can run those code. 
+
 ![image](https://user-images.githubusercontent.com/106062805/174479509-2a132e4f-223d-4faa-a0d5-3308b75613d6.png)
 
+6. Lastly, enter ```localhost:8000``` to get to see the output.
+
 ![image](https://user-images.githubusercontent.com/106062805/174479521-9f6ea51a-3bec-4101-8fba-8238e8c83b1b.png)
-
-
-//all images in docker
-![image](https://user-images.githubusercontent.com/106062805/174481392-a4e92d30-1621-458a-9c16-6ca3617f724e.png)
-
 
 
 This tutorial is a modification from [Truth Seekers](https://www.youtube.com/watch?v=ThpnqYpvnIM) and [Ceed Media](https://www.youtube.com/watch?v=PvDoZDWDUzw)
