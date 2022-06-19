@@ -130,7 +130,7 @@ SO, that's how we running our browser. As simple as this 2 steps. Now we are rea
    
 ![image](https://user-images.githubusercontent.com/106062805/174465210-90d4c8e2-b4af-467c-a7bc-cfae3b3e0695.png)
 
-Okay! Now we are done composing it, so we can continue with the MySQL.
+Okay! Now docker compose file is working, so we can continue with the MySQL.
 
 
 
