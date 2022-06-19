@@ -137,20 +137,22 @@ Okay! Now docker compose file is working, so we get MySQL image installed.
   6. Scroll down and copy the services or you can simply copy it from here:
   ```
      db:
-    image: mysql
-    command: --default-authentication-plugin=mysql_native_password
-    restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: example
+       image: mysql
+       command: --default-authentication-plugin=mysql_native_password
+       restart: always
+       environment:
+       MYSQL_ROOT_PASSWORD: example
 
-  adminer:
-    image: adminer
-    restart: always
-    ports:
-      - 8080:8080
+     adminer:
+       image: adminer
+       restart: always
+       ports:
+         - 8080:8080
   ```
   _NOTE: use of "mysql_native_password" is not recommended: https://dev.mysql.com/doc/refman/8.0/en/upgrading-from-previous-series.html#upgrade-caching-sha2-password_  
- _(this is just an example, not intended to be a production configuration)_
+ _(this is just an example, not intended to be a production configuration)_  
+ 
+    7. Paste in under the ```services``` in the docker-compose.yml file. ```db``` and ```adminer``` should be the same indention with the php.
 
 
 
