@@ -51,4 +51,22 @@ Let's think of the way this running on the browser. So we need Apache as the web
 //output - localhost:8000
 ![image](https://user-images.githubusercontent.com/106062805/174464449-edd9cb8c-ded4-490b-9095-570fb31aaba4.png)
 
+//stop container
+![image](https://user-images.githubusercontent.com/106062805/174465069-d4e9b84d-b118-41f9-b2a2-c2807c9f31a0.png)
+
+//create composer
+![image](https://user-images.githubusercontent.com/106062805/174465181-c3d3f89d-ceef-4d67-9a86-ac25f0b6e931.png)
+
+//create new file for src and put index.txt to src file
+![image](https://user-images.githubusercontent.com/106062805/174465185-59cb2748-1ba9-421d-83f0-6e1a4fc7b290.png)
+
+//compose
+![image](https://user-images.githubusercontent.com/106062805/174465199-05f91bd2-d930-45e0-a124-dc1f37ab3e32.png)
+
+//compose running
+![image](https://user-images.githubusercontent.com/106062805/174465210-90d4c8e2-b4af-467c-a7bc-cfae3b3e0695.png)
+
+
+
+
 
