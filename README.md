@@ -149,8 +149,7 @@ Okay! Now docker compose file is working, so we get MySQL image installed.
     ports:
       - 8080:8080
   ```
-  _NOTE: use of "mysql_native_password" is not recommended: https://dev.mysql.com/doc/refman/8.0/en/upgrading-from-previous-series.html#upgrade-caching-sha2-password
- _  
+  _NOTE: use of "mysql_native_password" is not recommended: https://dev.mysql.com/doc/refman/8.0/en/upgrading-from-previous-series.html#upgrade-caching-sha2-password_  
  _(this is just an example, not intended to be a production configuration)_
 
 
