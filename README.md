@@ -61,7 +61,8 @@ PHP  (recursive acronym for PHP: Hypertext Preprocessor) is a web programming pl
    ```
    $ docker run -it --rm --name my-running-app my-php-app
    ```
-   my-running-app going to be the name of the container     
+   my-running-app going to be the name of the container  
+   
    After you run this command, you can see it execute the script you insert before.  
       
   ![image](https://user-images.githubusercontent.com/106062805/174463722-ddcea9a1-12e8-458b-9848-16ed515ecc61.png)
