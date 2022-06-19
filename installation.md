@@ -13,7 +13,8 @@ But before that let's see what are the system requirements for downloading this 
 
 ![image](https://user-images.githubusercontent.com/106062805/174482991-4320f5a8-5a29-4d69-8a05-0c43644b0bdf.png)
 
-//install wsl
+If you get any errors after installing docker, then you should instal this WSL command first in order to run the docker desktop.
+
 ![image](https://user-images.githubusercontent.com/106062805/174480870-0cd1aaa5-cc9c-4879-a203-31b5c3ab293f.png)
 
 
