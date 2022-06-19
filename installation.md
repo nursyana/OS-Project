@@ -7,7 +7,13 @@
 ![image](https://user-images.githubusercontent.com/106062805/174480870-0cd1aaa5-cc9c-4879-a203-31b5c3ab293f.png)
 
 
+
+
 ![image](https://user-images.githubusercontent.com/106062805/174480798-df597c1f-f026-42bd-bfb6-8a1170242e49.png)
 
 
 ![image](https://user-images.githubusercontent.com/106062805/174458081-a218b086-75de-4c01-96d9-e5be69054737.png)
+
+
+//docker version
+![image](https://user-images.githubusercontent.com/106062805/174463192-02a25eef-7741-4968-b921-0ab30ef8dcc0.png)
