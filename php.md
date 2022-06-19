@@ -5,10 +5,8 @@ PHP is a web programming platform
 1. Open [Docker Hub](https://hub.docker.com/) and search for PHP image. Choose the official one.
 2. You need to have any source code editor, mine is using Visual Code Editor ([VS Code](https://code.visualstudio.com/download)). Have a folder in the VS Code for your project.
 3. Now, let's create a Dockerfile in the project.
-
-   ![image](https://user-images.githubusercontent.com/106062805/174463533-9caba716-e868-40fc-abcd-3d5db7b9f20a.png)
-
-5. Pull the PHP image by paste this code in the Dockerfile.
+  ![image](https://user-images.githubusercontent.com/93193178/174470445-dcf11155-785d-48fe-93e7-95d75f189d46.png)   
+4. Pull the PHP image by paste this code in the Dockerfile.
    ```
       FROM php:7.4-cli
       COPY . /usr/src/myapp
@@ -25,7 +23,7 @@ PHP is a web programming platform
 
    ![image](https://user-images.githubusercontent.com/106062805/174464232-03ddc426-f1f2-4aa4-a0bc-f81aac24fb67.png)
 
-7. To build the image we're going to run this command in the terminal:
+6. To build the image we're going to run this command in the terminal:
    ```
       $ docker build -t my-php-app .
    ```
