@@ -146,7 +146,7 @@ Okay! Now docker compose file is working, so we get MySQL image installed.
   _NOTE: use of "mysql_native_password" is not recommended: https://dev.mysql.com/doc/refman/8.0/en/upgrading-from-previous-series.html#upgrade-caching-sha2-password_  
  _(this is just an example, not intended to be a production configuration)_  
  
-    7. Paste in under the services in the docker-compose.yml file. db should be the same indention with the php. We are not going to use Adminer but phpMyAdmin.
+  7. Paste the code under the ```services``` in the docker-compose.yml file. ```db``` should be the same indention with the php. We are not going to use Adminer but phpMyAdmin.
 
 
 
