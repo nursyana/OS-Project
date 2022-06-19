@@ -114,8 +114,6 @@ SO, that's how we running our browser. As simple as this 2 steps. Now we are rea
 
 
  
-//localhost:8080 - mysql
-![image](https://user-images.githubusercontent.com/106062805/174465613-1ab2d7da-c213-4430-86eb-f084266f0bd6.png)
 
 
 
