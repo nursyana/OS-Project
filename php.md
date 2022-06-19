@@ -48,3 +48,7 @@ Let's think of the way this running on the browser. So we need Apache as the web
 //containers running
 ![image](https://user-images.githubusercontent.com/106062805/174464310-426a6ad9-2126-40ac-9d52-eeda9e491dd6.png)
 
+//output - localhost:8000
+![image](https://user-images.githubusercontent.com/106062805/174464449-edd9cb8c-ded4-490b-9095-570fb31aaba4.png)
+
+
