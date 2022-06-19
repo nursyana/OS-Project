@@ -72,7 +72,7 @@ We are done with the PHP. However, most websites are not going to be running on 
 
  ### Apache
  
- Apache is the most commonly used web server software, and it is open-source and free. It is quick, dependable, and secure. Let's proceed.
+ Apache is the most commonly used web server software, and it is open-source and free. It is quick, dependable, and secure. Let's proceed to deploy it.
  
    1. To run the downloaded Apache Docker Image, invoke the run command below to create a new container.
    ```
@@ -94,7 +94,10 @@ SO, that's how we running our browser. As simple as this 2 steps. Now we are rea
 
  ### MySQL
 
-//stop container
+   1. The container need to be stop first before we proceed. Use the command below to stop it.
+   ```
+      docker stop $(docker ps -a-q)
+   ```
 ![image](https://user-images.githubusercontent.com/106062805/174465069-d4e9b84d-b118-41f9-b2a2-c2807c9f31a0.png)
 
 //create composer
