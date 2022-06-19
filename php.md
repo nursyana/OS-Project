@@ -58,7 +58,6 @@ Let's think of the way this running on the browser. So we need Apache as the web
 ![image](https://user-images.githubusercontent.com/106062805/174465181-c3d3f89d-ceef-4d67-9a86-ac25f0b6e931.png)
 
 //create new file for src and put index.txt to src file
-![image](https://user-images.githubusercontent.com/106062805/174465185-59cb2748-1ba9-421d-83f0-6e1a4fc7b290.png)
 
 //compose
 ![image](https://user-images.githubusercontent.com/106062805/174465199-05f91bd2-d930-45e0-a124-dc1f37ab3e32.png)
