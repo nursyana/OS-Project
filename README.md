@@ -100,7 +100,7 @@ SO, that's how we running our browser. As simple as this 2 steps. Now we are rea
 
    2. In our project, create a file named ```docker-compose.yml```. Paste this code in that file:
    ```
-      version: "3.1"  # optional since v1.27.0
+      version: '3.1'
       
       services:
          php:
