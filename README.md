@@ -136,12 +136,12 @@ Okay! Now docker compose file is working, so we get MySQL image installed.
   
   6. Scroll down and copy the services or you can simply copy it from here:
   ```
-     db:
-       image: mysql
+     Mysqldb:
+       image: mysql:latest
        command: --default-authentication-plugin=mysql_native_password
        restart: always
        environment:
-       MYSQL_ROOT_PASSWORD: example
+         MYSQL_ROOT_PASSWORD: example
   ```
   _NOTE: use of "mysql_native_password" is not recommended: https://dev.mysql.com/doc/refman/8.0/en/upgrading-from-previous-series.html#upgrade-caching-sha2-password_  
  _(this is just an example, not intended to be a production configuration)_  
