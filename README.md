@@ -32,7 +32,7 @@ PHP  (recursive acronym for PHP: Hypertext Preprocessor) is a web programming pl
 
 1. Open [Docker Hub](https://hub.docker.com/) and search for PHP image. Choose the official one.
 2. You need to have any source code editor, mine is using Visual Code Editor ([VS Code](https://code.visualstudio.com/download)). Have a folder in the VS Code for your project.
-3. Now, let's create a Dockerfile in the project.
+3. Now, let's create a Dockerfile in the project.  
   ![image](https://user-images.githubusercontent.com/93193178/174470445-dcf11155-785d-48fe-93e7-95d75f189d46.png)   
 4. Pull the PHP image by paste this code in the Dockerfile.
    ```
@@ -43,7 +43,7 @@ PHP  (recursive acronym for PHP: Hypertext Preprocessor) is a web programming pl
    ```
    COPY is going to copy all the scripts or files from the current local storage into our WORKDIR and have it run.  
    WORKDIR telling us working directory where our container is going to be stored.  
-   You can change "./index.php" to any file name for the default of the page of the website  
+   You can change "./index.php" to any file name for the default of the page of the website   
    
    ![image](https://user-images.githubusercontent.com/106062805/174464219-1a89ef9a-e747-4470-a275-9fd85f331ccd.png)
 
@@ -57,7 +57,7 @@ PHP  (recursive acronym for PHP: Hypertext Preprocessor) is a web programming pl
    ```
    my-php-app is the name of the image, so you can rename it  
    
-7. And, to run that image, we need to run anaother command:
+7. And, to run that image, we need to run another command:
    ```
    $ docker run -it --rm --name my-running-app my-php-app
    ```
@@ -66,9 +66,11 @@ PHP  (recursive acronym for PHP: Hypertext Preprocessor) is a web programming pl
       
   ![image](https://user-images.githubusercontent.com/106062805/174463722-ddcea9a1-12e8-458b-9848-16ed515ecc61.png)
   
-Let's think of the way this running on the browser. So we need Apache as the web server to work with.  
+Most websites are not going to be running on a command prompt or terminal. So, let's think of the means for these running on the browser. Here, we choose to have Apache as the web server to work with.  
+
 
  ### Apache
+ 
 
 //create containers
 ![image](https://user-images.githubusercontent.com/106062805/174464047-a9554fa3-4e05-41f8-9b16-cc30095c11af.png)
