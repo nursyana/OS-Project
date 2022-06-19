@@ -6,7 +6,9 @@ Prepared by:
 3. Nurul Zahidah binti Jamaludin (2011130)
 
 ## What is Docker?
-Docker is
+Docker is an open source containerization platform. It enables developers to package applications into containers—standardized executable components combining application source code with the operating system (OS) libraries and dependencies required to run that code in any environment. Containers simplify delivery of distributed applications, and have become increasingly popular as organizations shift to cloud-native development and hybrid multicloud environments.
+
+Developers can create containers without Docker, but the platform makes it easier, simpler, and safer to build, deploy and manage containers. Docker is essentially a toolkit that enables developers to build, deploy, run, update, and stop containers using simple commands and work-saving automation through a single API.
  
  * Have a look at the installation steps and procedures here -> [Install Docker](docker-installation.md)
  * Tutorial to deploy Apache -> [Apache Tutorial](apache.md)
