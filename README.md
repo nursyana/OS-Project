@@ -27,7 +27,7 @@ Docker is
 ## Steps to deploy PHP, Apache, MySQL and PHPMyAdmin
 
  ### PHP
-PHP is a web programming platform
+PHP  (recursive acronym for PHP: Hypertext Preprocessor) is a web programming platform and is a widely-used open source general-purpose scripting language. It can be embedded into HTML. Let us jump in into the steps to setup PHP using Docker.
 
 1. Open [Docker Hub](https://hub.docker.com/) and search for PHP image. Choose the official one.
 2. You need to have any source code editor, mine is using Visual Code Editor ([VS Code](https://code.visualstudio.com/download)). Have a folder in the VS Code for your project.
