@@ -31,8 +31,6 @@ PHP is a web programming platform
    ```
    my-php-app is the name of the image, so you can rename it  
    
-   ![image](https://user-images.githubusercontent.com/106062805/174463722-ddcea9a1-12e8-458b-9848-16ed515ecc61.png)
-   
 7. And, to run that image, we need to run anaother command:
    ```
    $ docker run -it --rm --name my-running-app my-php-app
@@ -40,8 +38,8 @@ PHP is a web programming platform
    my-running-app going to be the name of the container     
    After you run this command, you can see it execute the script you insert before.  
       
-![image](https://user-images.githubusercontent.com/106062805/174460115-4767b486-806e-4eed-b069-3685541ae650.png)  
-
+  ![image](https://user-images.githubusercontent.com/106062805/174463722-ddcea9a1-12e8-458b-9848-16ed515ecc61.png)
+  
 Let's think of the way this running on the browser. So we need Apache as the web server to work with.
 
 //create containers
