@@ -100,7 +100,8 @@ SO, that's how we running our browser. As simple as this 2 steps. Now we are rea
    ```
 ![image](https://user-images.githubusercontent.com/106062805/174465069-d4e9b84d-b118-41f9-b2a2-c2807c9f31a0.png)
 
-//create composer
+   2. In our project, create a file named ```docker-compose.yml```.
+   
 ![image](https://user-images.githubusercontent.com/106062805/174465181-c3d3f89d-ceef-4d67-9a86-ac25f0b6e931.png)
 
 //create new file for src and put index.txt to src file
