@@ -41,9 +41,9 @@ PHP  (recursive acronym for PHP: Hypertext Preprocessor) is a web programming pl
       WORKDIR /usr/src/myapp
       CMD [ "php", "./index.php" ]
    ```
-   COPY is going to copy all the scripts or files from the current local storage into our WORKDIR and have it run.  
-   WORKDIR telling us working directory where our container is going to be stored.  
-   You can change "./index.php" to any file name for the default of the page of the website   
+   **COPY** is going to copy all the scripts or files from the current local storage into our WORKDIR and have it run.  
+   **WORKDIR** telling us working directory where our container is going to be stored.  
+   You can change _index.php_ to any file name for the default of the page of the website.   
    
    ![image](https://user-images.githubusercontent.com/106062805/174464219-1a89ef9a-e747-4470-a275-9fd85f331ccd.png)
 
@@ -55,19 +55,19 @@ PHP  (recursive acronym for PHP: Hypertext Preprocessor) is a web programming pl
    ```
       $ docker build -t my-php-app .
    ```
-   my-php-app is the name of the image, so you can rename it  
+   _my-php-app_ is the name of the image, so you can rename it.  
    
 7. And, to run that image, we need to run another command:
    ```
    $ docker run -it --rm --name my-running-app my-php-app
    ```
-   my-running-app going to be the name of the container  
+   _my-running-app_ is going to be the name of the container.  
    
    After you run this command, you can see it execute the script you insert before.  
       
   ![image](https://user-images.githubusercontent.com/106062805/174463722-ddcea9a1-12e8-458b-9848-16ed515ecc61.png)
   
-Most websites are not going to be running on a command prompt or terminal. So, let's think of the means for these running on the browser. Here, we choose to have Apache as the web server to work with.  
+We are done with the PHP. However, most websites are not going to be running on a command prompt or terminal. So, let's think of the means for these running on the browser. Here, we choose to have Apache as the web server to work with.  
 
 
  ### Apache
@@ -101,12 +101,15 @@ Most websites are not going to be running on a command prompt or terminal. So, l
 
 ![image](https://user-images.githubusercontent.com/106062805/174465606-f21adc8c-e1a3-4a8d-81ef-7187398283bd.png)
 
+
+ ### MySQL
+ 
 //localhost:8080 - mysql
 ![image](https://user-images.githubusercontent.com/106062805/174465613-1ab2d7da-c213-4430-86eb-f084266f0bd6.png)
 
 
 
- ### MySQL
+
  ### phpMyAdmin
 
 
