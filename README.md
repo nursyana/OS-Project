@@ -43,7 +43,7 @@ PHP  (recursive acronym for PHP: Hypertext Preprocessor) is a web programming pl
    ```
    **COPY** is going to copy all the scripts or files from the current local storage into our WORKDIR and have it run.  
    **WORKDIR** telling us working directory where our container is going to be stored.  
-   You can change _index.php_ to any file name for the default of the page of the website.   
+   You can change ```"./index.php``` to any file name for the default of the page of the website.   
    
    ![image](https://user-images.githubusercontent.com/106062805/174464219-1a89ef9a-e747-4470-a275-9fd85f331ccd.png)
 
@@ -53,15 +53,15 @@ PHP  (recursive acronym for PHP: Hypertext Preprocessor) is a web programming pl
 
 6. To build the image we're going to run this command in the terminal:
    ```
-      $ docker build -t my-php-app .
+      docker build -t my-php-app .
    ```
-   _my-php-app_ is the name of the image, so you can rename it.  
+   ```my-php-app``` is the name of the image, so you can rename it.  
    
 7. And, to run that image, we need to run another command:
    ```
-   $ docker run -it --rm --name my-running-app my-php-app
+      docker run -it --rm --name my-running-app my-php-app
    ```
-   _my-running-app_ is going to be the name of the container.  
+   ```my-running-app``` is going to be the name of the container.  
    
    After you run this command, you can see it execute the script you insert before.  
       
@@ -72,15 +72,25 @@ We are done with the PHP. However, most websites are not going to be running on 
 
  ### Apache
  
-
-//create containers
+   1. To run the downloaded Apache Docker Image, invoke the run command below to create a new container.
+   ```
+      docker run -d --name docker-apache -p 8000:80 -d httpd
+   ```
+   ```docker-apache``` is the name of the container.  
+   ```-p 8000:80``` is mapping the local computer's port 8000 to the container's port 80.  
+   
 ![image](https://user-images.githubusercontent.com/106062805/174464047-a9554fa3-4e05-41f8-9b16-cc30095c11af.png)
 
-//containers running
+   Image below shows that the container is running.
 ![image](https://user-images.githubusercontent.com/106062805/174464310-426a6ad9-2126-40ac-9d52-eeda9e491dd6.png)
 
-//output - localhost:8000
+   2. When the container is running, we should be able to go to localhost, port 8000 and see the code inside of the container running on the local machine. To make sure, it really running, you can make a change, save and refresh the localhost. It will follow the changes because we have set up ```-v```, a volume from our local machine into the container. 
+
 ![image](https://user-images.githubusercontent.com/106062805/174464449-edd9cb8c-ded4-490b-9095-570fb31aaba4.png)
+
+SO, that's how we running our browser. As simple as this 2 steps. Now we are ready to setup docker compose and MySQL.
+
+ ### MySQL
 
 //stop container
 ![image](https://user-images.githubusercontent.com/106062805/174465069-d4e9b84d-b118-41f9-b2a2-c2807c9f31a0.png)
@@ -102,7 +112,7 @@ We are done with the PHP. However, most websites are not going to be running on 
 ![image](https://user-images.githubusercontent.com/106062805/174465606-f21adc8c-e1a3-4a8d-81ef-7187398283bd.png)
 
 
- ### MySQL
+
  
 //localhost:8080 - mysql
 ![image](https://user-images.githubusercontent.com/106062805/174465613-1ab2d7da-c213-4430-86eb-f084266f0bd6.png)
