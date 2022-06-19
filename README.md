@@ -120,6 +120,11 @@ SO, that's how we running our browser. As simple as this 2 steps. Now we are rea
 
  ### phpMyAdmin
 
+![image](https://user-images.githubusercontent.com/106062805/174479215-92fb4d86-c572-42e1-8740-99b02aff8f4a.png)
+
+![image](https://user-images.githubusercontent.com/106062805/174479226-ab79330c-bf9a-4745-8ca2-c3659c8430e2.png)
+
+![image](https://user-images.githubusercontent.com/106062805/174479234-60d75e2e-7b2c-4363-8cff-c3e41296fad5.png)
 
 
 
