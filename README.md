@@ -127,4 +127,14 @@ SO, that's how we running our browser. As simple as this 2 steps. Now we are rea
 ![image](https://user-images.githubusercontent.com/106062805/174479234-60d75e2e-7b2c-4363-8cff-c3e41296fad5.png)
 
 
+![image](https://user-images.githubusercontent.com/106062805/174479331-455139e7-6c4d-4587-9b34-71ec538d9156.png)
+
+//connected phpadmin
+![image](https://user-images.githubusercontent.com/106062805/174479509-2a132e4f-223d-4faa-a0d5-3308b75613d6.png)
+
+![image](https://user-images.githubusercontent.com/106062805/174479521-9f6ea51a-3bec-4101-8fba-8238e8c83b1b.png)
+
+
+
+
 
