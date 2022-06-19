@@ -124,13 +124,13 @@ SO, that's how we running our browser. As simple as this 2 steps. Now we are rea
    ```
       docker-compose up -d
    ```
-//compose
 ![image](https://user-images.githubusercontent.com/106062805/174465199-05f91bd2-d930-45e0-a124-dc1f37ab3e32.png)
 
-//compose running
+   We can see the compose running from the image below. Another way to make sure it running it by make some changes to the code and refresh the localhost.  
+   
 ![image](https://user-images.githubusercontent.com/106062805/174465210-90d4c8e2-b4af-467c-a7bc-cfae3b3e0695.png)
 
-
+Okay! Now we are done composing it, so we can continue with the MySQL.
 
 
 
