@@ -107,9 +107,6 @@ SO, that's how we running our browser. As simple as this 2 steps. Now we are rea
 ![image](https://user-images.githubusercontent.com/106062805/174465210-90d4c8e2-b4af-467c-a7bc-cfae3b3e0695.png)
 
 
-![image](https://user-images.githubusercontent.com/106062805/174465598-eacf0f82-b611-47a7-a592-95a8165258ea.png)
-
-![image](https://user-images.githubusercontent.com/106062805/174465606-f21adc8c-e1a3-4a8d-81ef-7187398283bd.png)
 
 
 
