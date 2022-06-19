@@ -15,7 +15,15 @@ Prepared by:
      * [phpMyAdmin](###phpMyAdmin)
 
 ## What is Docker?
-Docker is
+Docker is an open platform for developing, shipping, and running applications. Docker allows you to separate your applications from your infrastructure so you can quickly deploy software. With Docker, you can manage your infrastructure the same way you manage your applications. By using Docker methods to quickly ship, test, and deploy your code, you can significantly reduce the time between writing your code and running it in production.
+
+Docker provides the ability to package and run an application in a loosely isolated environment called a container. Isolation and security allow you to run many containers concurrently on a given host. Containers are lightweight and contain everything needed to run the application, so you don't have to rely on what's currently installed on the host. You can easily share containers as you work and make sure everyone you share with gets the same container that works the same way.
+
+Docker provides tools and a platform to manage the lifecycle of your containers: 
+ 
+- Develop your application and its supporting components using containers. 
+- The container becomes the unit for distributing and testing your application. 
+-  When you are ready, deploy your app to your production environment either as a container or as an orchestrated service. This works whether your production environment is an on-premises data center, a cloud provider, or a mix of both.
 
 ![image](https://user-images.githubusercontent.com/106062805/174482239-ac7c6f45-1ac1-4aa3-bfa1-0e9df2fa4691.png)
 
